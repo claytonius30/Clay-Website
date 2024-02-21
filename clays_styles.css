@@ -1,0 +1,154 @@
+@charset "utf-8";
+@font-face { 
+    font-family: Quicksand; 
+    src: url('Quicksand-Regular.woff') format('woff'), 
+    url('Quicksand-Regular.ttf') format('truetype'); 
+}
+
+
+/*
+   Clay's Official Website
+   
+   xxxxxxxClay Layout Stylesxxxxxxxx
+   Clay Typographic Style Sheet
+   Author: Clayton DeSimone
+   Date:   May 10, 2023
+   
+   Filename: clays_styles.css
+
+*/
+
+
+
+/* HTML and Body Styles */
+
+html {
+    background-color: hsl(224, 32%, 73%); 
+}
+
+body {
+    color: rgb(91, 91, 91); 
+    background-color: ivory;
+    font-family: 'Comic Sans MS', cursive; 
+}
+
+/* Horizontal Navigation Styles */
+
+/*
+nav.horizontalNavigation a {
+    background-color: rgb(113, 86, 39);
+    font-family: Champagne, cursive;
+    font-size: 1em;
+    line-height: 1em;
+    text-align: center;
+}
+*/
+
+/* Heading Styles */
+
+h1 { 
+    font-size: 2.2em; 
+} 
+   h2 { 
+    font-size: 1.5em; 
+}
+
+h1, h2 { 
+    font-family: Quicksand, Verdana, Geneva, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+li.programming, p.programming {
+    color: rgb(8, 237, 77); 
+/*    background-color: rgb(222, 128, 60); */
+
+}
+
+li[class~="piano"], dd.piano, dt[class|="piano"] {
+    color: rgb(8, 222, 237);
+}
+
+h2 {
+    color: white; 
+    background-color: rgb(235, 177, 131); 
+}
+
+nav > ol > li > a:link, nav > ol > li > a:visited {
+    color: rgb(151, 151, 151);
+    text-decoration: none;
+}
+
+nav > ol > li > a:hover, nav > ol > li > a:active {
+    color: rgb(255, 64, 255);
+    text-decoration: underline;
+}
+
+
+/* Article and Blockquote Styles */
+
+article blockquote { 
+    color: rgb(232, 165, 116);
+    margin: 20px 5px;
+    quotes: "\201C" "\201D";
+}
+
+article blockquote::before {
+    content: open-quote;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+article blockquote::after {
+    content: close-quote;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+article#about_clay ul { 
+    padding-left: 50px
+}
+
+article#about_clay ul li:first-of-type {
+    list-style-image: url(runicon.png);
+}
+   article#about_clay ul li:nth-of-type(2) {
+    list-style-image: url(bikeicon.png);
+}
+   article#about_clay ul li:last-of-type {
+    list-style-image: url(swimicon.png);
+}
+
+article > dl > dt#zelda {
+    margin-top: 20px;
+}
+
+/* Navigation Styles */	
+
+nav > ol { 
+    line-height: 1.5em; 
+}
+
+nav ol {
+    list-style-type: lower-roman;
+}
+
+/* List Styles */
+
+/* Address Styles */
+
+address {
+    font-size: 0.9em;
+}
+
+/* Footer Styles */
+
+
+footer { 
+    color: white; 
+    color: rgba(255, 255, 255, 0.5); 
+    font: normal small-caps bold 0.7em/3em 
+    Quicksand, Verdana, Geneva, sans-serif; 
+    text-align: center; 
+}
