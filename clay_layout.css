@@ -29,9 +29,9 @@ body > header > img {
     width: 100%; 
 }
 
-body > header > nav.horizontalNavigation li {
+/* body > header > nav.horizontalNavigation li {
     width: 20%; 
-}
+} */
 
 
 /* Horizontal Navigation Styles */
@@ -77,7 +77,6 @@ section#rightColumn > nav.horizontalNavigation li {
 /* Footer Styles */
 
 footer {
-    background-color: rgb(222,128,60);
     clear: left; 
 }
 
